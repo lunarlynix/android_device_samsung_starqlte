@@ -19,18 +19,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from enchilada device
-$(call inherit-product, device/oneplus/enchilada/device.mk)
+$(call inherit-product, device/samsung/starqlte/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_enchilada
-PRODUCT_DEVICE := enchilada
-PRODUCT_MANUFACTURER := OnePlus
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONEPLUS A6003
+PRODUCT_NAME := lineage_starqltechn
+PRODUCT_DEVICE := starqltechn
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-G9600
+PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus6 \

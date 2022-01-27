@@ -14,13 +14,10 @@
 # limitations under the License.
 #
 
-# Inherit from oneplus sdm845-common
--include device/oneplus/sdm845-common/BoardConfigCommon.mk
+# Inherit from samsung sdm845-common
+-include device/samsung/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/enchilada
-
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
+DEVICE_PATH := device/samsung/starqlte
 
 # inherit from the proprietary version
--include vendor/oneplus/enchilada/BoardConfigVendor.mk
+-include vendor/samsung/starqlte/BoardConfigVendor.mk
