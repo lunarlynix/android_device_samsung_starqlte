@@ -26,11 +26,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    $(LOCAL_PATH)/overlay
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := xlarge
@@ -44,4 +40,4 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/samsung/starqlte/enchilada-vendor.mk)
+#$(call inherit-product, vendor/samsung/starqlte/starqlte-vendor.mk)
