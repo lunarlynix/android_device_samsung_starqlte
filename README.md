@@ -3,6 +3,9 @@
 The Samsung Galaxy S9 (codenamed _"starqlte"_) is a flagship smartphone from OnePlus.
 It was released in May 2018.
 
+![Samsung Galaxy S9](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-.jpg "Samsung Galaxy S9")
+
+
 | Basic                   | Spec Sheet                                                                                                                     |
 | -----------------------:|:------------------------------------------------------------------------------------------------------------------------------ |
 | CPU                     | Octa-core (4x2.8 GHz Kryo 385 Gold & 4x1.7 GHz Kryo 385 Silver)                                                                |
@@ -17,5 +20,3 @@ It was released in May 2018.
 | Camera (Front)          | 8 MP, f/1.7, 25mm (wide), 1/3.6", 1.22µm,                                                                                      |
 
 Copyright 2018 - The LineageOS Project.
-
-![Samsung Galaxy S9](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-.jpg "Samsung Galaxy S9")
