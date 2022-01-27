@@ -18,4 +18,4 @@ It was released in May 2018.
 
 Copyright 2018 - The LineageOS Project.
 
-![Samsung Galaxy S9](https://fdn2.gsmarena.com/vv/pics/samsung-galaxy-s9-.jpg "Samsung Galaxy S9")
+![Samsung Galaxy S9](https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s9-.jpg "Samsung Galaxy S9")
