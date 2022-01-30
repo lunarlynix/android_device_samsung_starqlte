@@ -24,8 +24,8 @@ $(call inherit-product, device/samsung/starqlte/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_starqltechn
-PRODUCT_DEVICE := starqltechn
+PRODUCT_NAME := aosp_starqlte
+PRODUCT_DEVICE := starqlte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G9600
 PRODUCT_MANUFACTURER := samsung

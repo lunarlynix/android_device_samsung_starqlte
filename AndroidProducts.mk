@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_starqlte.mk
+    $(LOCAL_DIR)/aosp_starqlte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_starqlte-user \
-    lineage_starqlte-userdebug \
-    lineage_starqlte-eng
+    aosp_starqlte-user \
+    aosp_starqlte-userdebug \
+    aosp_starqlte-eng

@@ -40,4 +40,4 @@ TARGET_SCREEN_WIDTH := 1080
 $(call inherit-product, device/samsung/sdm845-common/common.mk)
 
 # Inherit from vendor blobs
-#$(call inherit-product, vendor/samsung/starqlte/starqlte-vendor.mk)
+$(call inherit-product, vendor/samsung/starqlte/starqlte-vendor.mk)
